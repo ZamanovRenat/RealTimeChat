@@ -2,7 +2,7 @@ import { Button } from "bootstrap"
 import { useState } from "react"
 import { Form } from "react-bootstrap"
 
-//подключение к чату
+//вход в чат
 const Lobby = ({ joinRoom }) => {
      const [user, setUser] = useState();
      const [room, setRoom] = useState();
